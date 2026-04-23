@@ -37,3 +37,29 @@ npm-debug.log*
 
 # Zip exports
 *.zip
+
+# Dependency lock alternates (only if you're not using them)
+# yarn.lock
+# pnpm-lock.yaml
+
+# Runtime / coverage
+coverage/
+.nyc_output/
+
+# Package manager caches
+.npm/
+.pnpm-store/
+.yarn/cache/
+.yarn/install-state.gz
+
+# Electron signing / notarization artifacts
+*.p12
+*.pfx
+*.mobileprovision
+*.cer
+builder-debug.yml
+builder-effective-config.yaml
+
+# Misc env
+.env.development
+.env.production
